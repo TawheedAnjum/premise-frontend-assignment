@@ -1,0 +1,122 @@
+$automated-origin-text: #00b287;
+$card-subtext: #6b747f;
+$view-btn-color: #0045ca;
+$remove-btn-color: #dc2c00;
+$card-footer-bg: #f8fafe;
+$card-title-text: #07114b;
+$manual-origin-text : #8738c5;
+
+.container{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mr-2{
+    margin-right: .5rem;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    margin-top: 5rem;
+}
+
+.inputSearch{
+    width: 500px;
+    display: block;
+    padding: .5rem ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $card-title-text;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+
+.cardGroup{
+    margin-top: 1rem;
+}
+
+.card{
+    display: inline-block;
+    margin: .25rem;
+    background-color: white;
+    border-radius: 5px;
+}
+.cardInner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 240px;
+    height: 195px;
+}
+
+.cardHeader{
+    padding: 1.25rem 1.25rem 0 1.25rem;
+    padding-bottom: 0px;
+    height: 14px;
+    font-weight: 600;
+
+    .headerIcon{
+        margin-right: .25rem;
+        color: $automated-origin-text;
+    }
+
+    .manualHeader{
+        color: $manual-origin-text;
+    }
+
+    .autinatedHeader{
+        color: $automated-origin-text;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.cardBody{
+    padding: 0 1.25rem;
+    .title{
+        line-height: .3;
+        font-weight: 600;
+        color: $card-title-text;
+    }
+    .subTitle{
+        color: $card-subtext;
+        line-height: .2;
+        font-weight: 600;
+    }
+}
+
+.button{
+    border-radius: 29px;
+    width: 85px;
+    height: 28px;
+    font-weight: 400;
+    background-color: white;
+    font-size: 14px;
+    
+}
+
+.view-btn{
+    color: $view-btn-color;
+    border-color: $view-btn-color;
+}
+
+.remove-btn{
+    color: $remove-btn-color;
+    border-color: $remove-btn-color;
+}
+
+.cardFooter{
+    font-size: 10px;
+    color: $card-subtext;
+    background-color: $card-footer-bg;
+    padding: 0.5rem 1.25rem;
+    font-weight: 600;
+}
+

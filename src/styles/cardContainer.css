@@ -1,0 +1,130 @@
+.container {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mr-2 {
+  margin-right: .5rem;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem 0;
+  margin-top: 5rem;
+}
+
+.inputSearch {
+  width: 500px;
+  display: block;
+  padding: .5rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #07114b;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+.cardGroup {
+  margin-top: 1rem;
+}
+
+.card {
+  display: inline-block;
+  margin: .25rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.cardInner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 240px;
+  height: 195px;
+}
+
+.cardHeader {
+  padding: 1.25rem 1.25rem 0 1.25rem;
+  padding-bottom: 0px;
+  height: 14px;
+  font-weight: 600;
+}
+
+.cardHeader .headerIcon {
+  margin-right: .25rem;
+  color: #00b287;
+}
+
+.cardHeader .manualHeader {
+  color: #8738c5;
+}
+
+.cardHeader .autinatedHeader {
+  color: #00b287;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardBody {
+  padding: 0 1.25rem;
+}
+
+.cardBody .title {
+  line-height: .3;
+  font-weight: 600;
+  color: #07114b;
+}
+
+.cardBody .subTitle {
+  color: #6b747f;
+  line-height: .2;
+  font-weight: 600;
+}
+
+.button {
+  border-radius: 29px;
+  width: 85px;
+  height: 28px;
+  font-weight: 400;
+  background-color: white;
+  font-size: 14px;
+}
+
+.view-btn {
+  color: #0045ca;
+  border-color: #0045ca;
+}
+
+.remove-btn {
+  color: #dc2c00;
+  border-color: #dc2c00;
+}
+
+.cardFooter {
+  font-size: 10px;
+  color: #6b747f;
+  background-color: #f8fafe;
+  padding: 0.5rem 1.25rem;
+  font-weight: 600;
+}
+/*# sourceMappingURL=cardContainer.css.map */
